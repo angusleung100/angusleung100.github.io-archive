@@ -1,47 +1,107 @@
+<!doctype html>
 <html>
   <head>
-    <title>Angus</title>
+    <!-- Meta for Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     
+    <!-- Website Info -->
+    <title>Angus Leung</title>
+
   </head>
-
   <body>
-      <div class="banner">
-        <a href="index.html">Angus Leung</a>
-      </div>
-
-      <!-- Navigation -->
-      <div class="landing-navbar">
-        <center><ul class="nav-elements">
-            <a href="index.html"><li>Home</li></a>
-            <a href="about-me.html"><li>About Me</li></a>
-            <a href="projects.html"><li>Projects</li></a>
-            <a href="contact-me.html"><li>Contact Me</li></a>
-            <a href="https://github.com/angusleung100/"><li>Github</li></a>
-        </ul></center>
-      </div>
-      <br>
-      <div class"content">
-          <center><h1>Welcome to my website!</h1></center>
-          <hr>
-          <center><img height="200px" src="https://avatars2.githubusercontent.com/u/11466163?s=460&v=4"></center>
-          <div style="float: left; margin-left: 30%; margin-right: 30%;">
-          <p>
-            <h2>Some fun facts:</h2>
-            <ul>
-              <li>Studying Computer Science @ University of Ottawa</li>
-              <li>I like it when my code runs right and without errors</li>
-              <li>I usually like private repos more than public repos</li>
-              <li>I enjoy Systems and managing servers</li>
-            </ul>
-          </p>
+    <!-- Top Banner -->
+    <div class="full-width-div" id="banner">
+      <div class="container-fluid">
+          <a href="index.html">
+            <h1>Angus Leung</h1>
+          </a>
         </div>
+    </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav" aria-controls="navbarTogglerDemo03">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="toggleNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-me.html">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://techiskey.net">My Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-me.html">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="col-12 center-block text-center">
+    <h1>Welcome to my website!</h1>
+    <hr>
+    
+    <div class="row text-center" id="landing">
+      <div class="col-4" style="border: solid black;">
+        <h2>Quick Links</h2>
+        <ul style="text-align: left;">
+          <li><a href="https://twitter.com/angusleung100">Twitter</a></li>
+          <li><a href="https://github.com/angusleung100">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/angus-leung/">LinkedIn</a></li>
+          <li><a href="holdings.html">My Web Holdings</a></li>
+          <li><a href="summer-2020.html">Looking for Summer 2020 Internship!!</a></li>
+        </ul>
+      </div>
+      <div class="col-4" style="border: solid black;">
+        <h2>Some facts</h2>
+        <ul style="text-align: left;">
+          <li>Studying Computer Science @ University of Ottawa</li>
+          <li>I like it when my code runs right and without errors</li>
+          <li>I usually like private repos more than public repos</li>
+          <li>I enjoy finance and computing</li>
+          <li>Looking for a Summer position!!</li>
+        </ul>
+        <a href="about-me.html"><button class="btn btn-secondary">More about me ></button></a>
       </div>
 
+      <div class="col-4" style="border: solid black;">
+        <h2>Twitter Feed</h2>
+        <a class="twitter-timeline" height="400px" href="https://twitter.com/angusleung100?ref_src=twsrc%5Etfw">Tweets by angusleung100</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+    </div>
+    
+   
+  </div>
+</div>
 
 
+    
   </body>
   <footer>
-    <center><small class="footer-text">&copy; Angus Leung 2019</small></center>
+    <!-- Footer Content -->
+    <div class="col-12">
+      <small>© Angus Leung 2020</small>
+        
+    </div>
+
+    <!-- Additional Prerequisites -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </footer>
 </html>

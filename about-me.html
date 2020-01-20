@@ -1,33 +1,65 @@
+<!doctype html>
 <html>
   <head>
-    <title>About Me - Angus</title>
+    <!-- Meta for Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     
+    <!-- Website Info -->
+    <title>Angus Leung - About Me</title>
+
   </head>
-
   <body>
-    <div class="banner">
-      <a href="index.html">Angus Leung</a>
-    </div>
-
-    <!-- Navigation -->
-    <div class="landing-navbar">
-      <center><ul class="nav-elements">
-          <a href="index.html"><li>Home</li></a>
-          <a href="about-me.html"><li>About Me</li></a>
-          <a href="projects.html"><li>Projects</li></a>
-          <a href="contact-me.html"><li>Contact Me</li></a>
-          <a href="https://github.com/angusleung100/"><li>Github</li></a>
-      </ul></center>
-    </div>
-
-      <br>
-      <div class="content">
-        <div class="left-column">
-          <img src="https://avatars2.githubusercontent.com/u/11466163?s=460&v=4">
+    <!-- Top Banner -->
+    <div class="full-width-div" id="banner">
+      <div class="container-fluid">
+          <a href="index.html">
+            <h1>Angus Leung</h1>
+          </a>
         </div>
-        <div class="right-column">
-          <h1>About Me</h1>
+    </div>
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav" aria-controls="navbarTogglerDemo03">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="toggleNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-me.html">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://techiskey.net">My Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-me.html">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="col-12" id="about-me">
+    
+    <div class="row">
+      <div class="col-4" style="border: solid black;">
+        <img src="https://avatars2.githubusercontent.com/u/11466163?s=460&v=4">
+      </div>
+      <div class="col-8" style="border: solid black;">
+
+        <h1>About Me</h1>
           <hr>
           <p>
             <ul>
@@ -37,23 +69,55 @@
               <li>I enjoy building things</li>
             </ul>
           </p>
-          <h1>Skills</h1>
+
+          <h1>Tech Skills</h1>
           <hr>
           <p>
             <ul>
-              <li>PHP, Java, C++</li>
+              <li>PHP, Java, C++, Python</li>
               <li>HTML, CSS, Bootstrap</li>
               <li>MySQL</li>
             </ul>
           </p>
-        </div>
 
+          <h1>Languages</h1>
+          <hr>
+          <p>
+            <ul>
+              <li>English</li>
+              <li>French</li>
+              <li>Cantonese</li>
+            </ul>
+          </p>
+
+          <h1>Fun things I'm apart of</h1>
+          <hr>
+          <p>
+            <ul>
+              <li>uOttawa Rocketry</li>
+              <li>Engineers Without Borders (uOttawa Chapter)</li>
+            </ul>
+          </p>
       </div>
+    </div>
+    
+   
+  </div>
+</div>
 
 
-
+    
   </body>
   <footer>
-    <center><small class="footer-text">&copy; Angus Leung 2019</small></center>
+    <!-- Footer Content -->
+    <div class="col-12">
+      <small>© Angus Leung 2020</small>
+        
+    </div>
+
+    <!-- Additional Prerequisites -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </footer>
 </html>

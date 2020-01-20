@@ -1,115 +1,64 @@
 html  {
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -8px;
   font-family: arial;
-  overflow-x: hidden;
-  height: 100%;
-  margin-bottom: 0;
 }
 
-.landing-navbar {
-  background-color: white;
-  border-color: black;
-  border-bottom: solid;
-  border-width: 1px;
-}
-
-.landing-navbar ul {
-  background-color: white;
-  list-style-type: none;
-}
-
-.landing-navbar li  {
-  font-weight: bold;
-}
-
-.landing-navbar a {
-  background-color: white;
-  display: inline-block;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: black;
-  text-decoration: none;
-}
-
-#logo {
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: -30px;
-}
-
-#right  {
-  background-color: white;
-  float: right;
-}
-
-#right li {
-  margin-right: 10px;
-  padding-top: 2px;
-}
-
-.banner {
+#banner {
+  
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #00ccff;
   color: white;
+}
+
+#banner a{
+  color: white;
+  text-decoration: none;
+}
+
+#banner h1  {
   font-size: 50px;
 }
 
-.banner a{
+nav {
+  border-bottom: solid black;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+
+.nav-link  {
+  color: black;
+  font-weight: bold;
+}
+
+#landing  {
+  --sectionHeight: 500px;
+  height: var(--sectionHeight);
+  max-height: var(--sectionHeight);
+}
+
+#contact-me  {
+  --sectionHeight: 400px;
+  height: var(--sectionHeight);
+  max-height: var(--sectionHeight);
+}
+
+#about-me  {
+  --sectionHeight: 800px;
+  height: var(--sectionHeight);
+  max-height: var(--sectionHeight);
+}
+
+#projects  {
+  --sectionHeight: 100%;
+  height: var(--sectionHeight);
+  max-height: var(--sectionHeight);
+}
+
+footer {
+  background-color: gray;
+  margin-top: 10px;
+  text-align: center;
   color: white;
-  text-decoration: none;
-}
-
-.content  {
-  margin-left:25%;
-  margin-right:25%;
-  margin-bottom: auto;
-  display: inline;
-  center-align: text;
-  height: 100%;
-  min-height: 100%;
-  position: relative;
-}
-
-.content li {
-  font-size: 18px;
-}
-
-.content a  {
-  text-decoration: none;
-  color: blue;
-}
-
-.left-column  {
-  float: left;
-  width: 45%;
   padding: 5px;
-  margin-left: 5%;
-}
-
-.right-column  {
-  float: left;
-  width: 45%;
-  padding: 5px;
-}
-
-footer  {
-  background-color: #737373;
-  color: white;
-  width: 100%;
-  height: 30px;
-  padding: 10px;
-  margin-top: 100%;
-  margin-bottom: -30px;
-  bottom: 0;
-  position: absolute;
-}
-
-.footer-text  {
-  float: center;
 }

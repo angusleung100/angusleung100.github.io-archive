@@ -1,55 +1,149 @@
+<!doctype html>
 <html>
   <head>
-    <title>Projects - Angus</title>
+    <!-- Meta for Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     
+    <!-- Website Info -->
+    <title>Angus Leung - Contact Me</title>
+
   </head>
-
   <body>
-    <div class="banner">
-      <a href="index.html">Angus Leung</a>
-    </div>
-
-    <!-- Navigation -->
-    <div class="landing-navbar">
-      <center><ul class="nav-elements">
-          <a href="index.html"><li>Home</li></a>
-          <a href="about-me.html"><li>About Me</li></a>
-          <a href="projects.html"><li>Projects</li></a>
-          <a href="contact-me.html"><li>Contact Me</li></a>
-          <a href="https://github.com/angusleung100/"><li>Github</li></a>
-      </ul></center>
-    </div>
-
-      <br>
-      <div style="margin-left: 50px; margin-right: 50px;">
-      <div class="content">
-        <h1>Current Projects</h1>
-        <p style="font-size: 20px;">
-          Here is a list my current public pet projects. For a full list: <a href="https://github.com/angusleung100">Click Here</a>
-        </p>
-
-        <div style="center-align: items;">
-          <hr>
-          <h2>My Website Portfolio</h2>
-          <div style="font-size: 18px;">
-            <h3>
-            Features:
-            </h3>
-            <ul>
-            <li>A website portfolio for showing off.</li>
-            <li>Pure HTML, CSS, JS, and no libraries or frameworks.</li>
-            </ul>
-          </div>
+    <!-- Top Banner -->
+    <div class="full-width-div" id="banner">
+      <div class="container-fluid">
+          <a href="index.html">
+            <h1>Angus Leung</h1>
+          </a>
         </div>
-      </div>
+    </div>
 
-      </div>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav" aria-controls="navbarTogglerDemo03">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="toggleNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about-me.html">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://techiskey.net">My Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact-me.html">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <div class="col-12" id="projects">
+    
+    <h1>Current Projects</h1>
+        <p style="font-size: 20px;">
+          Here is a list my current public pet projects.
+        </p>
+    
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Features</th>
+              <th scope="col">Tech Stack</th>
+              <th scope="col">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Personal Website</th>
+              <td>
+                <ul>
+                  <li>Website to showcase myself</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </td>
+              <td><a href="#">Link</a></td>
+            </tr>
+            <tr>
+              <th>EST</th>
+              <td>
+                <ul>
+                  <li>Plan software projects with to-do lists, team management tools, and progress tracking</li>
+                  <li>Integrates various APIs into the system</li>
+                  <li>Still in development</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>PHP</li>
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                  <li>MySQL</li>
+                  <li>Apache</li>
+                </ul>
+              </td>
+              <td><a href="#">Link</a></td>
+            </tr>
+            <tr>
+              <th>Stock/Crypto Tracker</th>
+              <td>
+                <ul>
+                  <li>Query and look at data for stocks and cryptocurrencies using APIs</li>
+                  <li>Check hashes and blockchain stats across multiple blockchains</li>
+                  <li>Display interested stocks and cryptos on a personalized dashboard</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>PHP</li>
+                  <li>JSP (Java)</li>
+                  <li>Apache and Tomcat</li>
+                  <li>MySQL</li>
+                  <li>JavaScript</li>
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </td>
+              <td><a href="#">Link</a></td>
+            </tr>
+          </tbody>
+        </table>      
+   
+  </div>
+</div>
 
 
-
+    
   </body>
   <footer>
-    <center><small class="footer-text">&copy; Angus Leung 2019</small></center>
+    <!-- Footer Content -->
+    <div class="col-12">
+      <small>© Angus Leung 2020</small>
+        
+    </div>
+
+    <!-- Additional Prerequisites -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </footer>
 </html>
