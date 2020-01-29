@@ -18,5 +18,5 @@ There are still some front-end problems that need fixing so I will patch them up
 
 ## Current things planned
 - Fix display problem with mobile view dimensions, everything squishes
-- Fix denu button not displaying properly in mobile view
+- Fix menu button not displaying properly in mobile view
 - Add more cool stuff
