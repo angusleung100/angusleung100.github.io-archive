@@ -1,5 +1,7 @@
 html  {
   font-family: arial;
+  height: 100%;
+  min-height: 100%;
 }
 
 #banner {
@@ -31,34 +33,23 @@ nav {
   font-weight: bold;
 }
 
-#landing  {
-  --sectionHeight: 500px;
-  height: var(--sectionHeight);
-  max-height: var(--sectionHeight);
+#sidebar  {
+  background-color: lightgray;
+  height: 100%;
+  min-height: 100%;
 }
 
-#contact-me  {
-  --sectionHeight: 400px;
-  height: var(--sectionHeight);
-  max-height: var(--sectionHeight);
-}
-
-#about-me  {
-  --sectionHeight: 800px;
-  height: var(--sectionHeight);
-  max-height: var(--sectionHeight);
-}
-
-#projects  {
-  --sectionHeight: 100%;
-  height: var(--sectionHeight);
-  max-height: var(--sectionHeight);
-}
-
-footer {
-  background-color: gray;
-  margin-top: 10px;
-  text-align: center;
+#toggle {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: darkgrey;
   color: white;
+}
+
+.sidebar-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
   padding: 5px;
+  border-radius: 2px;
 }

@@ -25,8 +25,8 @@
 
       <!-- Navigation Bar -->
       <nav class="navbar navbar-expand-lg bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav" aria-controls="navbarTogglerDemo03">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggleNav" aria-expanded="false">
+    <span class="navbar-toggler-icon" id="toggle">A</span>
   </button>
 
   <div class="collapse navbar-collapse" id="toggleNav">
@@ -49,58 +49,59 @@
     </ul>
   </div>
 </nav>
-  
-<div class="container">
-  <div class="col-12 center-block text-center">
+  <main>
+<div class="container h-100">
+  <div class="col-md-12 text-center">
     <h1>Welcome to my website!</h1>
     <hr>
-    
-    <div class="row text-center" id="landing">
-      <div class="col-4" style="border: solid black;">
+  </div>
+    <div class="row">
+      <div class="col-md-8 col-sm-8">
         <h2>Quick Links</h2>
         <ul style="text-align: left;">
           <li><a href="https://twitter.com/angusleung100">Twitter</a></li>
           <li><a href="https://github.com/angusleung100">Github</a></li>
           <li><a href="https://www.linkedin.com/in/angus-leung/">LinkedIn</a></li>
-          <li><a href="summer-2020.html">Looking for Summer 2020 Internship!!</a></li>
+          <li><a href="summer-2021.html">Looking for Summer 2021 Internship!!</a></li>
         </ul>
-      </div>
-      <div class="col-4" style="border: solid black;">
+     
         <h2>Some facts</h2>
         <ul style="text-align: left;">
-          <li>Studying Computer Science @ University of Ottawa</li>
-          <li>I like it when my code runs right and without errors</li>
-          <li>I usually like private repos more than public repos</li>
-          <li>I enjoy finance and computing</li>
-          <li>Looking for a Summer position!!</li>
+          <li>Honours Computer Science @ University of Ottawa</li>
+          <li>Dedicated developer and business enthusiast</li>
+          <li>Interested in high finance, aerospace defense, and cloud services</li>
+          <li>Looking for a summer 2021 internship!</li>
         </ul>
         <a href="about-me.html"><button class="btn btn-secondary">More about me ></button></a>
       </div>
-
-      <div class="col-4" style="border: solid black;">
-        <h2>Twitter Feed</h2>
-        <a class="twitter-timeline" height="400px" href="https://twitter.com/angusleung100?ref_src=twsrc%5Etfw">Tweets by angusleung100</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+      <div class="col-md-4" id="sidebar">
+        <div class="sidebar-item">
+          <h4>Twitter Feed</h4>
+          <hr>
+          <a class="twitter-timeline" height="400px" href="https://twitter.com/angusleung100?ref_src=twsrc%5Etfw">Tweets by angusleung100</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          
+        </div>
+        <div class="sidebar-item">
+          <h4>Interested in hiring me?</h4>
+          <hr>
+          <ul>
+            <li>C++, Java, Python, MySQL</li>
+            <li>Team work is where the fun begins</li>
+            <li>Passionate for fintech</li>
+          </ul>
+        </div>
       </div>
     </div>
     
-   
-  </div>
 </div>
-
+</main>
 
     
   </body>
-  <footer>
-    <!-- Footer Content -->
-    <div class="col-12">
-      <small>© Angus Leung 2020</small>
-        
-    </div>
 
     <!-- Additional Prerequisites -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </footer>
+
 </html>
