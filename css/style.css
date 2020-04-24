@@ -26,6 +26,7 @@ nav {
   border-bottom: solid black;
   border-width: 1px;
   margin-bottom: 10px;
+  
 }
 
 .nav-link  {
@@ -37,6 +38,7 @@ nav {
   background-color: lightgray;
   height: 100%;
   min-height: 100%;
+  margin-bottom: 25px;
 }
 
 #toggle {
